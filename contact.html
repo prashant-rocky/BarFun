@@ -115,13 +115,13 @@
                 <div class="col-md-6 offset-md-1">
                     <div class="contact-form">
                     <div class="booking-inner clearfix">
-                                <form  class="form1 clearfix">
+                                <form  class="form1 clearfix" method="post" action="send.php">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input1_wrapper">
                                                 <label>Name</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Name" required>
+                                                    <input name="name" type="text" class="form-control input" placeholder="Name" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,7 +129,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Phone</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Phone" required>
+                                                    <input type="text" name="phone" class="form-control input" placeholder="Phone" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,7 +145,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Subject</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Subject" required>
+                                                    <input name="Subject" type="text" class="form-control input" placeholder="Subject" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -193,13 +193,13 @@
                                 <h4>Make A Reservation</h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form class="form1 clearfix">
+                                <form class="form1 clearfix" method="post" action="send.php">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input1_wrapper">
                                                 <label>Your Name</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Your Name" required>
+                                                    <input type="text" name="name" class="form-control input" placeholder="Your Name" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -207,7 +207,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Phone</label>
                                                 <div class="input2_inner">
-                                                    <input type="text" class="form-control input" placeholder="Phone" required>
+                                                    <input type="text" name="phone" class="form-control input" placeholder="Phone" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -215,7 +215,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Email Address</label>
                                                 <div class="input2_inner">
-                                                    <input type="email" class="form-control input" placeholder="Email Address" required>
+                                                    <input type="email" name="email" class="form-control input" placeholder="Email Address" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -223,7 +223,7 @@
                                             <div class="input1_wrapper">
                                                 <label>Date</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Date" required>
+                                                    <input type="text" name="date" class="form-control input datepicker" placeholder="Date" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -231,7 +231,7 @@
                                             <div class="select1_wrapper">
                                                 <label>Persons</label>
                                                 <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
+                                                    <select name="Person" class="select2 select" style="width: 100%">
                                                         <option value="0">Persons</option>
                                                         <option value="1">1 Person</option>
                                                         <option value="2">2 People</option>
@@ -248,7 +248,7 @@
                                             <div class="select1_wrapper">
                                                 <label>Time</label>
                                                 <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
+                                                    <select name="time" class="select2 select" style="width: 100%">
                                                         <option value="0">Time</option>
                                                         <option value="1">10:00 am</option>
                                                         <option value="2">11:00 am</option>
@@ -269,32 +269,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients -->
-    <section class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                <div class="owl-carousel owl-theme">
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/2.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/3.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/4.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/5.png" alt=""></a>
-                    </div>
-                    <div class="clients-logo">
-                        <a href="#0"><img src="img/clients/6.png" alt=""></a>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
