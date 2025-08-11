@@ -110,6 +110,23 @@ body {
     color: #777;
     overflow-x: hidden !important;
 }
+.cookies{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    z-index: 999;
+    transition: all ;
+}
+.cookiesBtn{
+    background-color: #1f2427;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
 p {
     font-family: 'Noah', sans-serif;
     font-size: 15px;

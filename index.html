@@ -15,6 +15,11 @@
 </head>
 
 <body>
+    <div class="cookies text-center py-3" id="cookiesBox">
+			<p class="d-inline pt-3">Our cookies follows terms and condition for better exprience.</p>
+			<button id="accept_cookies" class="cookiesBtn ms-5">accept all cookies</button>
+			<button id="cancel_cookies" class="cookiesBtn ">cancel</button>
+		</div>
     <canvas class="smoke-canvas"></canvas><!-- Preloader -->
     <div class="preloader-bg"></div>
     <div id="preloader">
@@ -537,6 +542,21 @@
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/smoke.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        if (sessionStorage.getItem('cookiesDismissed') === 'true') {
+		document.getElementById('cookiesBox').style.display = 'none';
+	}
+
+	document.getElementById("accept_cookies").addEventListener('click', function () {
+		document.getElementById('cookiesBox').style.display = 'none';
+		sessionStorage.setItem('cookiesDismissed', 'true');
+	});
+
+	document.getElementById('cancel_cookies').addEventListener('click', function () {
+		document.getElementById('cookiesBox').style.display = 'none';
+		sessionStorage.setItem('cookiesDismissed', 'true');
+	});
+    </script>
 </body>
 
 </html>
