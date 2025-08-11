@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Bar | Restaurant Fun </title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Pinyon+Script&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <canvas class="smoke-canvas"></canvas><!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!--  <a class="logo" href="index.html"> <h2>Candóre <span>Restaurant</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                  
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <!-- Cart -->
+            </div>
+        </div>
+    </nav>
+    <!-- Slider -->
+    <header class="header slider-fade">
+        <div class="owl-carousel owl-theme">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="text-center item bg-img" data-overlay-dark="6" data-background="img/slider/2.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>Welcome to Bar Fun<span>Restaurant & Wine Bar</span></h1>
+                                <p>Chuo Ward, Osaka, Japan</p> <a href="about.html" data-scroll-nav="1"
+                                    class="button-1 mt-30">Know more<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center item bg-img" data-overlay-dark="7" data-background="img/banner12.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>Welcome to Bar Fun<span>Restaurant & Wine Bar</span></h1>
+                                <p>Chuo Ward, Osaka, Japan</p> <a href="about.html" data-scroll-nav="1"
+                                    class="button-1 mt-30">Know more<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center item bg-img" data-overlay-dark="6" data-background="img/slider/3.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1>Osaka's Oldest<span>Restaurant & Wine Bar</span></h1>
+                                <p>Chuo Ward, Osaka, Japan</p> <a href="about.html" data-scroll-nav="1"
+                                    class="button-1 mt-30">Know more<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-30">
+                    <div class="section-head mb-20">
+                        <div class="section-subtitle">Bar Fun</div>
+                        <div class="section-title">A Few Words About Us</div>
+                    </div>
+                    <p>Bar Fun in Osaka is your all-in-one destination for nightlife and relaxation. We offer a vibrant
+                        travelers' lounge, nightclub, live music nights, celebrity shows, a full drink bar, and a cozy
+                        restaurant. Whether you're exploring the city or looking to party, Bar Fun promises
+                        unforgettable moments and great vibes every night.</p>
+                    <p>Step into Bar Fun, where Osaka’s nightlife comes alive. Perfect for globetrotters and party
+                        lovers, we blend comfort and entertainment under one roof. Enjoy international cuisine,
+                        signature cocktails, live music, and exclusive celebrity events—all in one place. Whether you're
+                        starting your night or ending your journey, Bar Fun is where the fun never stops.</p>
+
+                    <a href="about.html" data-scroll-nav="1" class="button-1 mt-30 bg-black">Know more<span></span></a>
+                </div>
+                <div class="col col-md-3"> <img src="img/about2.jpg" alt="" class="mt-90 mb-30"> </div>
+                <div class="col col-md-3"> <img src="img/about.jpg" alt=""> </div>
+            </div>
+        </div>
+    </section>
+    <!-- Chef -->
+    <section class="about section-padding bg-blck">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 mb-30"> <img src="img/chef/chef.jpg" alt=""> </div>
+                <div class="col-md-5 valign mb-30">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-head mb-20">
+                                <div class="section-subtitle">20 Years of Experience</div>
+                                <div class="section-title white">Big Chef's Menu</div>
+                            </div>
+                            <p>A rising star in Osaka’s culinary scene, Chef Ayaka is the soul behind our appetizers and specialty cocktail pairings. She combines bold flavors with artistic presentation, ensuring every dish not only tastes amazing but looks unforgettable. Her passion for local produce and creative plating makes her a guest favorite.
+                                sapien.</p>
+                            <div class="about-bottom"> <img src="img/signature.svg" alt=""
+                                    class="image about-signature">
+                                <div class="about-name-wrapper">
+                                    <div class="about-name">Harold Brown</div>
+                                    <div class="about-rol">Master Chef</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials - Opening hours -->
+    <section class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner5.jpg"
+        data-overlay-dark="6">
+        <div class="container">
+            <div class="row">
+                <!-- Testimonials -->
+                <div class="col-md-6">
+                    <div class="testimonials">
+                        <div class="testimonials-box">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item"> <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <p>Not only is it a fun bar, but the restaurant serves amazing dishes too! I loved
+                                        the mix of Japanese and Western food. Plus, the live music added a special touch
+                                        to the evening. A perfect place to relax, eat, and enjoy great entertainment all
+                                        in one spot.</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/4.jpg" alt=""> </div>
+                                        <div class="cont">
+                                            <h6>Souta Kobayashi</h6> <span>Customer review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item"> <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <p>As a solo traveler in Osaka, Bar Fun was a great find. The lounge area was super
+                                        chill during the day, and the staff made me feel really welcome. At night, the
+                                        vibe totally transforms—it’s electric! Great drinks, friendly crowd, and awesome
+                                        music. Will definitely come back!</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/1.jpg" alt=""> </div>
+                                        <div class="cont">
+                                            <h6>Daiki Nakamura</h6> <span>Customer review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item"> <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <p>Bar Fun has the best nightlife scene I found in Osaka. The live DJ and celebrity
+                                        guest made the night extra special. The place is clean, well-managed, and full
+                                        of energy. I went with a few friends and we danced until morning. Highly
+                                        recommended for party lovers!</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/5.jpg" alt=""> </div>
+                                        <div class="cont">
+                                            <h6>Kaito Yamamoto</h6> <span>Customer review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Opening hours -->
+                <div class="col-md-5 offset-md-1">
+                    <div class="opening-hours-box">
+                        <div class="head-box">
+                            <h4>Opening Hours</h4>
+                        </div>
+                        <div class="content-box">
+                            <div class="item">
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col col-md-5">
+                                            <div class="cont">
+                                                <h6 class="day">Tuesday to Sunday</h6> <span class="time">7 PM</span>
+                                                <br> <span class="time">3 AM</span>
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-2">
+                                            <div class="vl"></div>
+                                        </div>
+                                        <div class="col col-md-5">
+                                            <div class="cont">
+                                                <h6 class="day">Sunday</h6> <span class="time">Off</span>
+                                                <br> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <a href="about.html" class="button-1 mt-15">Know more</a>
+                        <p><small>You can also call: <a href="mailto:8551004444">855 100 4444</a> to know more</small>
+                        </p>
+                        <p class="mt-0"><a href="#0"><i class="ti-location-pin"></i></a><small>Chuo Ward, Osaka, Japan
+                                zip: 542-0071</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Box -->
+    <section class="services-box section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item"> <span class="icon flaticon-cooking"></span>
+                        <div class="cont">
+                            <h5>Bar</h5>
+                            <p>Lively Osaka bar with music, cocktails, global cuisine, celebrity shows, and a vibrant
+                                lounge for travelers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="icon flaticon-tray-2"></span>
+                        <div class="cont">
+                            <h5>Restaurant</h5>
+                            <p>Cozy restaurant offering delicious Japanese and international dishes, perfect for
+                                travelers and nightlife lovers in Osaka.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="icon flaticon-chef-1"></span>
+                        <div class="cont">
+                            <h5>Party</h5>
+                            <p>High-energy parties with live DJs, vibrant crowds, great drinks, and unforgettable nights
+                                in the heart of Osaka.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First Class Services -->
+    <div class="first-class-services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-head text-center">
+                        <div class="section-subtitle">First-Class</div>
+                        <div class="section-title white">Our Features</div>
+                        <div class="section-backtitle">Services</div> <span class="icon white">
+                            <i class="flaticon-tray-2"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="square-flip">
+                        <div class="square bg-img" data-background="img/services/1.jpg"> <span class="sale">NEW</span>
+                            <div class="square-container d-flex align-items-end justify-content-end">
+                                <div class="box-title">
+                                    <div class="icon flaticon-menu"></div>
+                                    <h6>Celebrity Show</h6>
+                                    <h4>Bringing Celebrities Closer to You</h4>
+                                </div>
+                            </div>
+                            <div class="flip-overlay"></div>
+                        </div>
+                        <div class="square2">
+                            <div class="square-container2">
+                                <h6>Celebrity Show</h6>
+                                <h4>Bringing Celebrities Closer to You</h4>
+                                <p><i>Experience unforgettable moments with top celebrities, live performances, and
+                                        exclusive access in a show that defines star-studded entertainment.
+                                    </i></p> <a href="services.html" class="button-4 mt-15">More services<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="square-flip">
+                        <div class="square bg-img" data-background="img/services/2.jpg">
+                            <div class="square-container d-flex align-items-end justify-content-end">
+                                <div class="box-title">
+                                    <div class="icon flaticon-food-serving"></div>
+                                    <h6>Fresh Japanese Food</h6>
+                                    <h4>Taste the Tradition of Japan</h4>
+                                </div>
+                            </div>
+                            <div class="flip-overlay"></div>
+                        </div>
+                        <div class="square2">
+                            <div class="square-container2">
+                                <h6>Fresh Japanese Food</h6>
+                                <h4>Taste the Tradition of Japan</h4>
+                                <p><i>Enjoy authentic Japanese cuisine made with fresh ingredients, rich flavors, and
+                                        traditional recipes delivered straight to your table.
+                                    </i></p> <a href="services.html" class="button-4 mt-15">More services<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="square-flip">
+                        <div class="square bg-img" data-background="img/services/3.jpg">
+                            <div class="square-container d-flex align-items-end justify-content-end">
+                                <div class="box-title">
+                                    <div class="icon flaticon-chef"></div>
+                                    <h6>Travelers' Lounge</h6>
+                                    <h4>Relax. Recharge. Travel in Style.</h4>
+                                </div>
+                            </div>
+                            <div class="flip-overlay"></div>
+                        </div>
+                        <div class="square2">
+                            <div class="square-container2">
+                                <h6>Travelers' Lounge</h6>
+                                <h4>Relax. Recharge. Travel in Style.</h4>
+                                <p><i>Experience ultimate comfort and luxury on the go with our traveling lounge,
+                                        designed for relaxation wherever your journey takes you.
+                                    </i></p> <a href="services.html" class="button-4 mt-15">More services<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <section class="services-1 section-padding bg-cream">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-head text-center">
+                        <div class="section-subtitle">Our Services</div>
+                        <div class="section-title">Experience Bar Fun</div>
+                        <div class="section-backtitle">Services</div> <span class="icon">
+                            <i class="flaticon-hot-food"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item"> <span class="flaticon-hamburger-1"></span>
+                        <h5>Travelers' Lounge</h5>
+                        <p>Relaxing travelers' lounge with cozy seating, free Wi-Fi, light refreshments, and a welcoming
+                            space to unwind or connect.
+                        </p>
+                        <div class="shape"> <span class="flaticon-hamburger-1"></span> </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="flaticon-pizza-1"></span>
+                        <h5>Nightclub</h5>
+                        <p>Energetic nightclub featuring live DJs, vibrant dance floors, premium drinks, and an
+                            unforgettable nightlife experience in Osaka.
+                        </p>
+                        <div class="shape"> <span class="flaticon-pizza-1"></span> </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="flaticon-coffee-cup"></span>
+                        <h5>Musical Nights</h5>
+                        <p>Experience unforgettable musical nights with live performances, diverse genres, great vibes,
+                            and an electrifying atmosphere in Osaka.
+                        </p>
+                        <div class="shape"> <span class="flaticon-coffee-cup"></span> </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="flaticon-chicken-leg"></span>
+                        <h5>Celebrity Show</h5>
+                        <p>Enjoy exclusive celebrity shows featuring famous artists, special guest appearances, and
+                            thrilling performances for a truly memorable night.
+                        </p>
+                        <div class="shape"> <span class="flaticon-chicken-leg-1"></span> </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="flaticon-fish"></span>
+                        <h5>Restaurant</h5>
+                        <p>Savor delicious Japanese and international cuisine in a cozy setting, perfect for casual
+                            dining or pre-party meals.
+                        </p>
+                        <div class="shape"> <span class="flaticon-fish"></span> </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> <span class="flaticon-wedding-cake"></span>
+                        <h5>Japanese Food</h5>
+                        <p>Authentic Japanese food made with fresh ingredients, offering sushi, ramen, and local
+                            favorites in a warm, inviting atmosphere.
+                        </p>
+                        <div class="shape"> <span class="flaticon-wedding-cake"></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-column footer-about">
+                            <h3 class="footer-title">About Us</h3>
+                            <p class="footer-about-text">Bar Fun is Osaka’s ultimate nightlife spot, offering live
+                                music, parties, great food, drinks, and a traveler-friendly vibe.
+                            </p>
+                            <div class="footer-language"> <i class="lni ti-world"></i>
+                                <select onchange="location = this.value;">
+                                    <option value="#0">English</option>
+                                    <option value="#0">Japanese</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Contact Info</h3>
+                            <p class="footer-contact-text">Chuo Ward, Osaka, Japan <br>zip: 542-0071
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone">855 100 4444</p>
+                                <p class="footer-contact-mail">info@luxuryhotel.com</p>
+                            </div>
+                            <div class="footer-about-social-list"> <a href="#"><i class="ti-instagram"></i></a> <a
+                                    href="#"><i class="ti-twitter"></i></a> <a href="#"><i class="ti-youtube"></i></a>
+                                <a href="#"><i class="ti-facebook"></i></a> <a href="#"><i class="ti-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-column footer-explore clearfix">
+                            <h3 class="footer-title">Disclaimer</h3>
+                            <div class="row subscribe">
+                                <div class="col-md-12">
+                                    <p>
+                                        Stop drinking alcohol under the age of 20 and driving under the influence.
+                                        Drinking alcohol during pregnancy or while breastfeeding
+                                        may have a negative impact on the development of the fetus or infant.
+                                        Enjoy good alcohol in moderation. Recycle after drinking.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">© Copyright 2025 by <a href="#">Bar Fun</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/smoke.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
